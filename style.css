@@ -7,6 +7,7 @@ html, body {
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
+    float:auto;
 }
 
 
@@ -14,16 +15,19 @@ main {
     margin: 0 auto;
     width: 700px;
     position: relative;
+    
 }
 
 
 article {
     text-align: justify;
+    color: rgb(20, 20, 20);
+    
 }
 
 
 header {
-    color: skyblue;
+    color: rgb(52, 56, 61);
     text-align: center;
 }
 
@@ -36,17 +40,22 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: left;
+img.zweefLinks1 {
+    float:left;
     margin-right: 15px;
 }
-
+img.zweeflinks2 {
+    float:right;
+    margin-right: 15px;
+}
 .smalltext {
     font-size: 0.7em;
+    color: rgb(53, 81, 117);
+    
 }
 
 a {
-    color: skyblue;
+    color: rgb(21, 113, 233);
     text-decoration: none;
 }
 
@@ -59,13 +68,15 @@ a:hover {
 nav ul {
     list-style-type: none;
     margin: auto;
-    padding: 0;
-    background-color: #dddddd;
-    overflow: hidden;
+    padding:5px;
+    background-color:rgb(53, 81, 117);
+    overflow: hidden; 
+    
 }
 
 nav ul li {
     float: left;
+    width:20%;
 }
 
 nav li a {
@@ -74,14 +85,15 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+   
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: rgb(53, 81, 117);
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgba(53, 103, 107, 0.795);
 }
 
 
