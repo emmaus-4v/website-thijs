@@ -49,16 +49,24 @@ footer {
 }
 .tekstonderplaatje{ 
     clear:both;
+    float:left;
 }
 img.zweeflinks1 {
     float:left;
-    margin-right: 15px;  
+    margin-right: 35px;  
+    margin-top:10px;
 }
 
 img.zweeflinks2 {
     float:right;
-    margin-left: 15px;}
+    margin-left: 35px;
+    margin-top: 10px;
+    }
     
+.zweeflinks3{
+    float:left;
+    margin-right: 25px;}
+
 .smalltext {
     font-size: 0.7em;
     color: rgb(53, 81, 117);   
@@ -74,7 +82,10 @@ a:hover {
 }
 
 div#rechts { 
-    float:right;
+    float:left;
+}
+div#clear { 
+    clear:both;
 }
 
 
