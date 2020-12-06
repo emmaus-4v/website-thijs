@@ -38,29 +38,36 @@ footer {
 }
 
 
+
 /* specifieke stijlen */
 .textstructuur { 
-    font-family:Verdana, sans-serif;
+    font-family:Arial,Helvetica,Sans-Serif;
     font-size:88%;
     text-align:auto;
     font-weight:normal;
 
     
 }
-.tekstonderplaatje{ 
+.tekstonderplaatje { 
+    font-family:Arial,Helvetica,Sans-Serif;
     clear:both;
     float:left;
+    font-size:88%;
+    text-align:auto;
+    font-weight:normal;
 }
 img.zweeflinks1 {
     float:left;
-    margin-right: 35px;  
-    margin-top:10px;
+    margin-right:10px;  
+    margin-top:6px;
+    margin-bottom:10px;
 }
 
 img.zweeflinks2 {
     float:right;
-    margin-left: 35px;
-    margin-top: 10px;
+    margin-left:15px;
+    margin-top:6px;
+    margin-bottom:10px;
     }
     
 .zweeflinks3{
