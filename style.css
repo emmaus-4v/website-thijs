@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(255, 255, 255);  
+    background-color: rgba(225, 255, 255,0.789);  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -20,7 +20,7 @@ main {
 
 
 article {
-    text-align: justify;
+    text-align: auto;
     color: rgb(20, 20, 20);
     
 }
