@@ -4,8 +4,6 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: rgba(225, 255, 255,0.789);  
-    
-    color: #303030;
     font: Verdana, Arial, Sans-Serif;
     float:auto;
     
@@ -39,7 +37,7 @@ footer {
 
 
 
-/* specifieke stijlen */
+/* Teksts*/
 .textstructuur { 
     font-family:Arial,Helvetica,Sans-Serif;
     font-size:88%;
@@ -56,12 +54,20 @@ footer {
     text-align:auto;
     font-weight:normal;
 }
+.smalltext {
+    font-size: 0.7em;
+    color: rgb(53, 81, 117);  }
+
+
+/* Plaatjes*/
+
 img.zweeflinks1 {
     float:left;
     margin-right:10px;  
     margin-top:6px;
     margin-bottom:10px;
-}
+    }
+
 
 img.zweeflinks2 {
     float:right;
@@ -70,14 +76,12 @@ img.zweeflinks2 {
     margin-bottom:10px;
     }
     
-.zweeflinks3{
+img.zweeflinks3{
     float:left;
     margin-right: 25px;}
 
-.smalltext {
-    font-size: 0.7em;
-    color: rgb(53, 81, 117);   
-}
+
+/*links*/
 
 a {
     color: rgb(21, 113, 233);
@@ -88,7 +92,7 @@ a:hover {
     text-decoration: underline;
 }
 
-div#rechts { 
+div#left { 
     float:left;
 }
 div#clear { 
