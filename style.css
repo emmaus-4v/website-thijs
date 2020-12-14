@@ -55,6 +55,7 @@ footer {
     font-weight:normal;
 }
 .smalltext {
+    font-family:Arial,Helvetica,Sans-Serif;
     font-size: 0.7em;
     color: rgb(53, 81, 117);  }
 
@@ -98,6 +99,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 /*voettekstboxen*/
 div#left { 
     float:left;
@@ -105,8 +107,19 @@ div#left {
 div#clear { 
     clear:both;
 }
+/*animaties*/
 
+@keyframes pulse {  
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: red;}
+  75%  {color: yellow;}
+  100% {color: black;}
+ }
 
+#hoofdtitel{ 
+ animation: pulse 5s;
+}
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
