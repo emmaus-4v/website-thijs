@@ -4,7 +4,7 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: rgba(225, 255, 255,0.789);  
-    font: Verdana, Arial, Sans-Serif;
+    font: Verdana, Arial,Sans-Serif;
     float:auto;
     
 }
@@ -110,7 +110,7 @@ div#clear {
 /*animaties*/
 
 @keyframes pulse {  
-  0%   {color: red;}
+  0%   {color:rgba(225, 255, 255,0.789);}
   25%  {color: yellow;}
   50%  {color: red;}
   75%  {color: yellow;}
@@ -120,6 +120,24 @@ div#clear {
 #hoofdtitel{ 
  animation: 10s pulse infinite;
 }
+
+@keyframes slidein { 
+    from {  margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+#slidein
+{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
